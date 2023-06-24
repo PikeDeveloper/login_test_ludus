@@ -30,7 +30,7 @@ class LoginButton extends StatelessWidget {
       loginController.loginFomrKey.value.currentState!.save();
       loginController.isValidated.value = true;
 
-      Timer(const Duration(seconds: 1), () {
+      Timer(const Duration(seconds: 2), () {
         loginController.email.value = "";
         loginController.password.value = "";
         loginController.isValidated.value = false;
